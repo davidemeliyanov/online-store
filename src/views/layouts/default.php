@@ -10,15 +10,15 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h2>My Website</h2>
+                <h2>Онлайн Магазин</h2>
             </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="/">home</a>
+                        <a href="/">главная</a>
                     </li>
                     <li>
-                        <a href="/about">about</a>
+                        <a href="/about">о нас</a>
                     </li>
                 </ul>
             </nav>

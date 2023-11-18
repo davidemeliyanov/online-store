@@ -1,12 +1,15 @@
 :root {
     --main-padding: 20px;
     --main-color: #fff;
-    --main-bg: hotpink;
+    --main-bg: #4c4444;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.flx {
+    display: flex;
 }
 .container {
     margin: 0 auto;
@@ -35,4 +38,19 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
+}
+.categories {
+    padding: 40px;
+    gap: 40px;
+}
+.product-category img {
+    padding-bottom: 10px;
+}
+.product-category h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+.categories a {
+    text-decoration: none;
+    color: #000;
 }

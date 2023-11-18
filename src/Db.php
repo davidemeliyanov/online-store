@@ -16,7 +16,7 @@ class Db
         $this->host = "localhost";
         $this->username = "root";
         $this->password = "";
-        $this->dbname = "testing";
+        $this->dbname = "store";
         $this->charset = "utf8mb4";
 
         $dsn = "mysql:host=" . $this->host . ";dbname=". $this->dbname . ";charset=". $this->charset;

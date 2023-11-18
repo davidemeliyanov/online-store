@@ -1,0 +1,24 @@
+:root {
+    --main-padding: 20px;
+    --main-color: #fff;
+    --main-bg: hotpink;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    padding: var(--main-padding);
+}
+
+header, footer {
+    color: var(--main-color);
+    background-color: var(--main-bg);
+    height: 70px;
+}
+main {
+    min-height: 767px;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "user/online-store",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "davidemeliyanov2024",
+            "email": "davidemeliyanov2024@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="/src/views/css/main.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>My Website</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">home</a>
+                    </li>
+                    <li>
+                        <a href="/about">about</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
         <div class="container">
             <?php echo $content;?>
